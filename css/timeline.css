@@ -14,7 +14,7 @@
   }
   
   .timeline .timeline-event::before {
-    display: block;
+    display: none;
     content: "";
     width: 2px;
     height: calc(50% - 30px);
@@ -28,11 +28,11 @@
     display: block;
     content: "";
     width: 2px;
-    height: calc(50% - 30px);
+    height: calc(100% - 39px);
     position: absolute;
     background: #d2d2d2;
     left: calc(50% - 1px);
-    top: calc(50% + 30px);
+    top: calc(0% + 50px);
   }
   
   .timeline .timeline-event:first-child::before {
@@ -57,7 +57,7 @@
     width: 40px;
     height: 40px;
     background: #d2d2d2;
-    top: calc(50% - 20px);
+    top: calc(0% + 10px);
     right: calc(50% - 20px);
     border-radius: 50%;
     text-align: center;
