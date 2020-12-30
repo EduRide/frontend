@@ -19,7 +19,7 @@
     width: 2px;
     height: calc(50% - 30px);
     position: absolute;
-    background: #d2d2d2;
+    background: #FFFFFF;
     left: calc(50% - 1px);
     top: 0;
   }
@@ -30,7 +30,7 @@
     width: 2px;
     height: calc(100% - 39px);
     position: absolute;
-    background: #d2d2d2;
+    background: #FFFFFF;
     left: calc(50% - 1px);
     top: calc(0% + 50px);
   }
@@ -56,7 +56,7 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    background: #d2d2d2;
+    background: #FFFFFF;
     top: calc(0% + 10px);
     right: calc(50% - 20px);
     border-radius: 50%;
